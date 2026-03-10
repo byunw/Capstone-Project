@@ -19,6 +19,7 @@ class HubertECGClassifier(nn.Module):
         self,
     ):
         super().__init__()
+        #using pre-trained weights of Hubert-ECG
         self.hubert = AutoModel.from_pretrained("Edoardo-BS/hubert-ecg-small",trust_remote_code=True)
         self.hidden_size = self.hubert.config.hidden_size  # typically 512 for hubert-ecg-small
         self.classifier = nn.Linear(self.hidden_size,4)
