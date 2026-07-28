@@ -8,14 +8,12 @@ Woosuk (Alex) Byun
   The training dataset has 5,969 samples. The test dataset has 1,280 data samples. The validation dataset has 1,279 data samples.
  
 # Training 
-  hyperparameters
-   learning rate: 3e-5
-   epoch: 1
-   batch size: 16 
-  Above are the hyperparameters I have used before.
-  But I will tinker with hyperparameters.
-  
-  
+  **Hyperparameters**
+  - Learning rate: `3e-5`
+  - Epochs: `1`
+  - Batch size: `16`
+
+  The above are the hyperparameters I used so far. I will further tune these hyperparameters in future.
   
   
    
