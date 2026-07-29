@@ -15,7 +15,7 @@ My name is Woosuk (Alex) Byun and I recently received a master of computer scien
 
   The above are the hyperparameters I used so far. I will further tune these hyperparameters in future.
 
-  Current batch of 1-lead ecgs and their corresponding labels were loaded onto the gpu.
+  Current batch of 1-lead ecgs and their corresponding labels were loaded onto the gpu from the ram.
   Then, each 1-lead ecg is converted into a matrix of size 140x512. And, mean pooling was applied to each matrix of size 140x512 
   which represents each 1-lead ecg. Now each 1-lead was represented by a vector of size 512. Then, each vector of size of 512 was converted 
   to 4 logits. And the average cross entropy (average of each cross entropy loss of each 1 lead ecg) loss was calculated. 
