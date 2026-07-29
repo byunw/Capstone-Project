@@ -1,6 +1,5 @@
 # Author
-Woosuk (Alex) Byun. 
-I recently received a master of computer science (machine learning) from Rochester Institute of Technology.
+My name is Woosuk (Alex) Byun and I recently received a master of computer science (machine learning) from Rochester Institute of Technology.
 
 # Used Hardware: NVIDIA A100-SXM4-80GB 
 
