@@ -1,7 +1,7 @@
 # Author
 My name is Woosuk (Alex) Byun and I recently received a master of computer science (machine learning) from Rochester Institute of Technology.
 
-# Used Hardware: NVIDIA A100-SXM4-80GB 
+# Used Hardware: 1 NVIDIA A100-SXM4-80GB 
 
 # Dataset
   The dataset is divided into the following: a training dataset, a test dataset and a validation dataset.
