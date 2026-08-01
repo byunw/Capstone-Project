@@ -24,7 +24,7 @@ My name is Woosuk (Alex) Byun and I recently received a master of computer scien
   All model parameters' partial derivatives are set to None in each iteration. Then, a subset of parameters's partial derivatives are calculated. 
   Then, the parameters that have corresponding partial derivatives will be updated. 
   Lastly, the average cross entropy loss for the current batch of 1-lead ecgs is added to total_loss. 
-  Each the sum of each batch's average cross entropy loss will be divided by 374.
+  The sum of each batch's average cross entropy loss will be divided by 374 to calculate the loss for the current epoch.
    
   **Model Architecture** 
   
