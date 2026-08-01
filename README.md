@@ -23,7 +23,8 @@ My name is Woosuk (Alex) Byun and I recently received a master of computer scien
   Then, the parameters that have corresponding partial derivatives will be updated. And the average cross entropy loss for the current batch
   of 1-lead ecgs is added to total_loss. There will in total 374 iterations of the aforementioned process.
   
-   
+
+  **Model Architecture** 
   
      
    
